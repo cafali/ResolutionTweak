@@ -5,7 +5,7 @@
 # Features
 - **One-Click Resolution Change:** Easily switch between custom and native resolutions with a single click.
 - **Custom Resolution Management:** Apply a custom resolution defined in the configuration file.
-- **Native Resolution Reversion:** Automatically revert to the native resolution if the custom resolution is already active.
+- **Native Resolution Reversion:** Automatically revert to the native resolution.
 - **Configuration File Support:** Read and write resolution settings to a configuration file.
 
 # Important Note
