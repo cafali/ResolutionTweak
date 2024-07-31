@@ -9,5 +9,7 @@
 # Important Note
 - Ensure that the custom resolution you want to use is already configured in the NVIDIA Control Panel before running Resolution Tweak.
 
+![image](https://github.com/user-attachments/assets/91af0695-d414-4a74-9a3e-eb422bd97f95)
+
 # Preview
 ![image](https://github.com/user-attachments/assets/7c798bde-92e8-42fd-9aab-be228d03470d)
