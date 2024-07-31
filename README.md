@@ -1,4 +1,6 @@
-# Resolution Tweak
+
+![banner](https://github.com/user-attachments/assets/ff8fb5d9-e6ff-46e3-8bda-7ddfa355159c)
+
 
 # Features
 - One-Click Resolution Change: Easily switch between custom and native resolutions with a single click.
