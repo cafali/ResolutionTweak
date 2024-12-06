@@ -21,3 +21,7 @@ NR=165
 ```
 
 Make sure that if you use a custom resolution that is not already available in Windows, you add it to the custom resolutions in the Nvidia panel.
+
+# Why?
+
+Idk.. I created this to quickly switch to 4:3 when playing CS. This allows me to play 4:3 in fullscreen windowed mode, where I don't need to worry about the long alt+tabbing issue that occurs in fullscreen mode and often bugs out when playing 4:3.
