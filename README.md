@@ -20,7 +20,8 @@ NY=1440
 NR=165
 ```
 
-Make sure that if you use a custom resolution that is not already available in Windows, you add it to the custom resolutions in the Nvidia panel.
+> [!NOTE]
+Make sure that if you use a custom resolution that is not already available in Windows, you add it to the Custom Resolutions section in the NVIDIA Control Panel or AMD Adrenalin Software.
 
 # Why?
 
