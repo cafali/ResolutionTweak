@@ -98,27 +98,6 @@ bool ReadConfig(int& customWidth, int& customHeight, int& nativeWidth, int& nati
     return true;
 }
 
-// write resolution values to the configuration file
-bool WriteConfig(int customWidth, int customHeight, int nativeWidth, int nativeHeight, int nativeRefreshRate, int customRefreshRate) {
-    std::ofstream outFile(CFG_FILE);
-    if (!outFile.is_open()) {
-        MessageBox(NULL, "Failed to open config file for writing.", "Error", MB_OK | MB_ICONERROR);
-        return false;
-    }
-
-    outFile << "## CustomRes\n";
-    outFile << "CX=" << customWidth << "\n";
-    outFile << "CY=" << customHeight << "\n";
-    outFile << "CR=" << customRefreshRate << "\n"; // Add custom refresh rate to config
-    outFile << "\n## NativeRes\n";
-    outFile << "NX=" << nativeWidth << "\n";
-    outFile << "NY=" << nativeHeight << "\n";
-    outFile << "NR=" << nativeRefreshRate << "\n";
-
-    outFile.close();
-    return true;
-}
-
 // Main
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     int customWidth = 0, customHeight = 0;
@@ -157,11 +136,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
             return 1;
         }
 
-        // save the current resolution
-        if (!WriteConfig(customWidth, customHeight, nativeWidth, nativeHeight, nativeRefreshRate, customRefreshRate)) {
-            MessageBox(NULL, "Failed to save resolution to config file", "Error", MB_OK | MB_ICONERROR);
-            return 1;
-        }
     }
 
     return 0;
