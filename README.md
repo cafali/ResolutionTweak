@@ -2,6 +2,8 @@
 
 This simple tool allows you to quickly switch between two resolutions—native and custom—with a single click.
 
+![res](https://github.com/user-attachments/assets/e222f62c-e674-41b3-8c7a-aa46b234fd11)
+
 It eliminates the need to navigate through the Windows settings to change the resolution.
 
 When launched, the tool automatically switches between your native and custom resolution—switching to the custom resolution if you're on the native one, and vice versa.
