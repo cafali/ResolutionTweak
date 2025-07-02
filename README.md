@@ -12,14 +12,14 @@ You can adjust the resolution using a configuration (cfg) file.
 
 ```
 CustomRes
-CX=1920
-CY=1440
-CR=165
+CX=1920 [px]
+CY=1440 [px]
+CR=165 [Hz]
 
 NativeRes
-NX=2560
-NY=1440
-NR=165
+NX=2560 [px]
+NY=1440 [px]
+NR=165 [Hz]
 ```
 
 > [!NOTE]
