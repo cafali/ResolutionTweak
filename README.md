@@ -24,6 +24,7 @@ NR=165
 
 > [!NOTE]
 Make sure that if you use a custom resolution that is not already available in Windows, you add it to the Custom Resolutions section in the NVIDIA Control Panel or AMD Adrenalin Software.
+![image](https://github.com/user-attachments/assets/8f027d9c-a7dc-4f33-ad05-5093c4315137)
 
 # Why?
 
